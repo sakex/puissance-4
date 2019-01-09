@@ -1,0 +1,25 @@
+{
+  "name": "puissance-4",
+  "version": "1.0.0",
+  "description": "Puissance 4 AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakex/puissance-4.git"
+  },
+  "keywords": [
+    "AI",
+    "puissance4",
+    "c++",
+    "node"
+  ],
+  "author": "Alexandre Senges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakex/puissance-4/issues"
+  },
+  "homepage": "https://github.com/sakex/puissance-4#readme"
+}

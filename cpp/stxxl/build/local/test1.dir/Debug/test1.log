@@ -1,0 +1,50 @@
+﻿  Building Custom Rule C:/stxxl/local/CMakeLists.txt
+  CMake does not need to re-run because C:/stxxl/build/local/CMakeFiles/generate.stamp is up-to-date.
+  test1.cpp
+C:\stxxl\include\stxxl/bits/containers/vector.h(59): warning C4458: declaration of 'pos' hides class member
+  C:\stxxl\include\stxxl/bits/containers/vector.h(54): note: see declaration of 'stxxl::double_blocked_index<SizeType,4,524288>::pos'
+          with
+          [
+              SizeType=stxxl::uint64
+          ]
+  C:\stxxl\include\stxxl/bits/containers/vector.h(60): note: while compiling class template member function 'void stxxl::double_blocked_index<SizeType,4,524288>::set(unsigned __int64)'
+          with
+          [
+              SizeType=stxxl::uint64
+          ]
+  C:\stxxl\include\stxxl/bits/containers/vector.h(80): note: see reference to function template instantiation 'void stxxl::double_blocked_index<SizeType,4,524288>::set(unsigned __int64)' being compiled
+          with
+          [
+              SizeType=stxxl::uint64
+          ]
+  C:\stxxl\include\stxxl/bits/containers/vector.h(314): note: see reference to class template instantiation 'stxxl::double_blocked_index<SizeType,4,524288>' being compiled
+          with
+          [
+              SizeType=stxxl::uint64
+          ]
+  C:\stxxl\local\test1.cpp(52): note: see reference to class template instantiation 'stxxl::vector_iterator<int,stxxl::RC,unsigned __int64,stxxl::vector<ValueType,4,stxxl::lru_pager<8>,2097152,AllocStr,stxxl::uint64>::difference_type,2097152,stxxl::lru_pager<8>,4>' being compiled
+          with
+          [
+              ValueType=int,
+              AllocStr=stxxl::RC
+          ]
+C:\stxxl\include\stxxl/bits/algo/sort.h(580): warning C4456: declaration of 'i' hides previous local declaration
+  C:\stxxl\include\stxxl/bits/algo/sort.h(531): note: see declaration of 'i'
+  C:\stxxl\include\stxxl/bits/algo/sort.h(751): note: see reference to function template instantiation 'stxxl::simple_vector<stxxl::sort_helper::trigger_entry<block_type,int>> *stxxl::sort_local::sort_blocks<block_type,alloc_strategy_type,bids_container_iterator,StrictWeakOrdering>(InputBidIterator,stxxl::unsigned_type,stxxl::unsigned_type,ValueCmp)' being compiled
+          with
+          [
+              StrictWeakOrdering=my_less_int,
+              InputBidIterator=bids_container_iterator,
+              ValueCmp=my_less_int
+          ]
+  C:\stxxl\local\test1.cpp(52): note: see reference to function template instantiation 'void stxxl::sort<stxxl::vector_iterator<int,stxxl::RC,unsigned __int64,stxxl::vector<ValueType,4,stxxl::lru_pager<8>,2097152,AllocStr,stxxl::uint64>::difference_type,2097152,stxxl::lru_pager<8>,4>,my_less_int>(ExtIterator,ExtIterator,StrictWeakOrdering,stxxl::unsigned_type)' being compiled
+          with
+          [
+              ValueType=int,
+              AllocStr=stxxl::RC,
+              ExtIterator=stxxl::vector_iterator<int,stxxl::RC,unsigned __int64,stxxl::vector<int,4,stxxl::lru_pager<8>,2097152,stxxl::RC,stxxl::uint64>::difference_type,2097152,stxxl::lru_pager<8>,4>,
+              StrictWeakOrdering=my_less_int
+          ]
+C:\stxxl\include\stxxl/bits/algo/sort.h(592): warning C4456: declaration of 'i' hides previous local declaration
+  C:\stxxl\include\stxxl/bits/algo/sort.h(531): note: see declaration of 'i'
+  test1.vcxproj -> C:\stxxl\build\local\Debug\test1.exe

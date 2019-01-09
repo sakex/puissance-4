@@ -1,0 +1,47 @@
+﻿  Building Custom Rule C:/stxxl/lib/CMakeLists.txt
+  CMake does not need to re-run because C:/stxxl/build/lib/CMakeFiles/generate.stamp is up-to-date.
+  cmdline.cpp
+  exithandler.cpp
+  log.cpp
+  rand.cpp
+  seed.cpp
+  utils.cpp
+  verbose.cpp
+  version.cpp
+  boostfd_file.cpp
+  create_file.cpp
+  disk_queued_file.cpp
+  file.cpp
+  fileperblock_file.cpp
+  iostats.cpp
+C:\stxxl\lib\io\iostats.cpp(290): warning C4456: declaration of 'diff' hides previous local declaration
+  C:\stxxl\lib\io\iostats.cpp(284): note: see declaration of 'diff'
+C:\stxxl\lib\io\iostats.cpp(295): warning C4456: declaration of 'diff' hides previous local declaration
+  C:\stxxl\lib\io\iostats.cpp(284): note: see declaration of 'diff'
+  mem_file.cpp
+  request.cpp
+  request_queue_impl_1q.cpp
+  request_queue_impl_qwqr.cpp
+  request_queue_impl_worker.cpp
+  request_with_state.cpp
+  Generating Code...
+  Compiling...
+  request_with_waiters.cpp
+  serving_request.cpp
+  syscall_file.cpp
+  ufs_file_base.cpp
+  wbtl_file.cpp
+  wfs_file_base.cpp
+C:\stxxl\lib\io\wfs_file_base.cpp(103): warning C4456: declaration of 'file_des' hides previous local declaration
+  C:\stxxl\lib\io\wfs_file_base.cpp(90): note: see declaration of 'file_des'
+  wincall_file.cpp
+  block_manager.cpp
+  config.cpp
+  disk_allocator.cpp
+  async_schedule.cpp
+C:\stxxl\lib\algo\async_schedule.cpp(115): warning C4456: declaration of 'i' hides previous local declaration
+  C:\stxxl\lib\algo\async_schedule.cpp(87): note: see declaration of 'i'
+C:\stxxl\lib\algo\async_schedule.cpp(160): warning C4456: declaration of 'i' hides previous local declaration
+  C:\stxxl\lib\algo\async_schedule.cpp(87): note: see declaration of 'i'
+  Generating Code...
+  stxxl_static.vcxproj -> C:\stxxl\build\lib\Debug\stxxl.lib

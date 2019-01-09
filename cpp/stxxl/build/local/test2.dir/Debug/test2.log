@@ -1,0 +1,30 @@
+﻿  Building Custom Rule C:/stxxl/local/CMakeLists.txt
+  CMake does not need to re-run because C:/stxxl/build/local/CMakeFiles/generate.stamp is up-to-date.
+  test2.cpp
+C:\stxxl\local\test2.cpp(40): warning C4456: declaration of 'timer' hides previous local declaration
+  C:\stxxl\local\test2.cpp(32): note: see declaration of 'timer'
+C:\stxxl\local\test2.cpp(54): warning C4456: declaration of 'timer' hides previous local declaration
+  C:\stxxl\local\test2.cpp(32): note: see declaration of 'timer'
+C:\stxxl\include\stxxl/bits/stream/sort_stream.h(489): warning C4458: declaration of 'run' hides class member
+  C:\stxxl\include\stxxl/bits/stream/sort_stream.h(470): note: see declaration of 'stxxl::stream::runs_creator<stxxl::stream::use_push<ValueType>,my_less,2097152,stxxl::RC>::run'
+          with
+          [
+              ValueType=int64_t
+          ]
+  C:\stxxl\include\stxxl/bits/stream/sort_stream.h(490): note: while compiling class template member function 'void stxxl::stream::runs_creator<stxxl::stream::use_push<ValueType>,my_less,2097152,stxxl::RC>::sort_run(stxxl::typed_block<2097152,__int64,0,void> *,stxxl::unsigned_type)'
+          with
+          [
+              ValueType=int64_t
+          ]
+  C:\stxxl\include\stxxl/bits/stream/sort_stream.h(634): note: see reference to function template instantiation 'void stxxl::stream::runs_creator<stxxl::stream::use_push<ValueType>,my_less,2097152,stxxl::RC>::sort_run(stxxl::typed_block<2097152,__int64,0,void> *,stxxl::unsigned_type)' being compiled
+          with
+          [
+              ValueType=int64_t
+          ]
+  C:\stxxl\include\stxxl/bits/containers/sorter.h(83): note: see reference to class template instantiation 'stxxl::stream::runs_creator<stxxl::stream::use_push<ValueType>,my_less,2097152,stxxl::RC>' being compiled
+          with
+          [
+              ValueType=int64_t
+          ]
+  C:\stxxl\local\test2.cpp(35): note: see reference to class template instantiation 'stxxl::sorter<int64_t,my_less,2097152,stxxl::RC>' being compiled
+  test2.vcxproj -> C:\stxxl\build\local\Debug\test2.exe

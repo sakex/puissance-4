@@ -1,0 +1,324 @@
+Performing C++ SOURCE FILE Test CXX_HAS_TEMPLATE_DEPTH failed with the following output:
+Change Dir: C:/stxxl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_8ad0a.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23/12/2018 17:19:00.
+Project "C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_8ad0a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8ad0a.dir\Debug\".
+  Creating directory "C:\stxxl\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8ad0a.dir\Debug\cmTC_8ad0a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8ad0a.dir\Debug\cmTC_8ad0a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /Zi /W4 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CXX_HAS_TEMPLATE_DEPTH /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8ad0a.dir\Debug\\" /Fd"cmTC_8ad0a.dir\Debug\vc141.pdb" /Gd /TP /wd4127 /wd4290 /wd4250 /wd4512 /wd4355 /analyze- /errorReport:queue  -ftemplate-depth=1024 C:\stxxl\build\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26730 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W4 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CXX_HAS_TEMPLATE_DEPTH /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8ad0a.dir\Debug\\" /Fd"cmTC_8ad0a.dir\Debug\vc141.pdb" /Gd /TP /wd4127 /wd4290 /wd4250 /wd4512 /wd4355 /analyze- /errorReport:queue  -ftemplate-depth=1024 C:\stxxl\build\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+cl : Command line warning D9002: ignoring unknown option '-ftemplate-depth=1024' [C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_8ad0a.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\stxxl\build\CMakeFiles\CMakeTmp\Debug\cmTC_8ad0a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/stxxl/build/CMakeFiles/CMakeTmp/Debug/cmTC_8ad0a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/stxxl/build/CMakeFiles/CMakeTmp/Debug/cmTC_8ad0a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8ad0a.dir\Debug\src.obj
+  cmTC_8ad0a.vcxproj -> C:\stxxl\build\CMakeFiles\CMakeTmp\Debug\cmTC_8ad0a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_8ad0a.dir\Debug\cmTC_8ad0a.tlog\unsuccessfulbuild".
+  Touching "cmTC_8ad0a.dir\Debug\cmTC_8ad0a.tlog\cmTC_8ad0a.lastbuildstate".
+Done Building Project "C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_8ad0a.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_8ad0a.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9002: ignoring unknown option '-ftemplate-depth=1024' [C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_8ad0a.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/stxxl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_432a8.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23/12/2018 17:19:03.
+Project "C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_432a8.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_432a8.dir\Debug\".
+  Creating directory "C:\stxxl\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_432a8.dir\Debug\cmTC_432a8.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_432a8.dir\Debug\cmTC_432a8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /Zi /W4 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_432a8.dir\Debug\\" /Fd"cmTC_432a8.dir\Debug\vc141.pdb" /Gd /TP /wd4127 /wd4290 /wd4250 /wd4512 /wd4355 /analyze- /errorReport:queue C:\stxxl\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26730 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W4 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_432a8.dir\Debug\\" /Fd"cmTC_432a8.dir\Debug\vc141.pdb" /Gd /TP /wd4127 /wd4290 /wd4250 /wd4512 /wd4355 /analyze- /errorReport:queue C:\stxxl\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\stxxl\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_432a8.vcxproj]
+Done Building Project "C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_432a8.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_432a8.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\stxxl\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_432a8.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.41
+
+
+Determining if the mmap exist failed with the following output:
+Change Dir: C:/stxxl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_73d86.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23/12/2018 17:19:12.
+Project "C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_73d86.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_73d86.dir\Debug\".
+  Creating directory "C:\stxxl\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_73d86.dir\Debug\cmTC_73d86.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_73d86.dir\Debug\cmTC_73d86.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73d86.dir\Debug\\" /Fd"cmTC_73d86.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\stxxl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26730 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73d86.dir\Debug\\" /Fd"cmTC_73d86.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\stxxl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+  
+C:\stxxl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'sys/mman.h': No such file or directory [C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_73d86.vcxproj]
+Done Building Project "C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_73d86.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_73d86.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\stxxl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'sys/mman.h': No such file or directory [C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_73d86.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.36
+
+File C:/stxxl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mmap
+  return ((int*)(&mmap))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test STXXL_HAVE_LINUXAIO_FILE failed with the following output:
+Change Dir: C:/stxxl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b7a95.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23/12/2018 17:19:13.
+Project "C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_b7a95.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b7a95.dir\Debug\".
+  Creating directory "C:\stxxl\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b7a95.dir\Debug\cmTC_b7a95.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b7a95.dir\Debug\cmTC_b7a95.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /Zi /W4 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D STXXL_HAVE_LINUXAIO_FILE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b7a95.dir\Debug\\" /Fd"cmTC_b7a95.dir\Debug\vc141.pdb" /Gd /TP /wd4127 /wd4290 /wd4250 /wd4512 /wd4355 /analyze- /errorReport:queue C:\stxxl\build\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26730 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W4 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D STXXL_HAVE_LINUXAIO_FILE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b7a95.dir\Debug\\" /Fd"cmTC_b7a95.dir\Debug\vc141.pdb" /Gd /TP /wd4127 /wd4290 /wd4250 /wd4512 /wd4355 /analyze- /errorReport:queue C:\stxxl\build\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+C:\stxxl\build\CMakeFiles\CMakeTmp\src.cxx(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_b7a95.vcxproj]
+Done Building Project "C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_b7a95.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_b7a95.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\stxxl\build\CMakeFiles\CMakeTmp\src.cxx(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_b7a95.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.42
+
+Source file was:
+#include <unistd.h>
+   #include <sys/syscall.h>
+   #include <linux/aio_abi.h>
+   int main() {
+       aio_context_t context;
+       long r = syscall(SYS_io_setup, 5, &context);
+       return (r == 0) ? 0 : -1;
+   }
+Performing C++ SOURCE FILE Test STXXL_HAVE_SYNC_ADD_AND_FETCH failed with the following output:
+Change Dir: C:/stxxl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f1c06.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23/12/2018 17:19:13.
+Project "C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_f1c06.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f1c06.dir\Debug\".
+  Creating directory "C:\stxxl\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f1c06.dir\Debug\cmTC_f1c06.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f1c06.dir\Debug\cmTC_f1c06.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /Zi /W4 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D STXXL_HAVE_SYNC_ADD_AND_FETCH /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f1c06.dir\Debug\\" /Fd"cmTC_f1c06.dir\Debug\vc141.pdb" /Gd /TP /wd4127 /wd4290 /wd4250 /wd4512 /wd4355 /analyze- /errorReport:queue C:\stxxl\build\CMakeFiles\CMakeTmp\src.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26730 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W4 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D STXXL_HAVE_SYNC_ADD_AND_FETCH /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f1c06.dir\Debug\\" /Fd"cmTC_f1c06.dir\Debug\vc141.pdb" /Gd /TP /wd4127 /wd4290 /wd4250 /wd4512 /wd4355 /analyze- /errorReport:queue C:\stxxl\build\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+C:\stxxl\build\CMakeFiles\CMakeTmp\src.cxx(1): error C3861: '__sync_add_and_fetch': identifier not found [C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_f1c06.vcxproj]
+Done Building Project "C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_f1c06.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_f1c06.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\stxxl\build\CMakeFiles\CMakeTmp\src.cxx(1): error C3861: '__sync_add_and_fetch': identifier not found [C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_f1c06.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.39
+
+Source file was:
+int main() { int x; __sync_add_and_fetch(&x, +1); return 0; }
+Determining if the mallinfo exist failed with the following output:
+Change Dir: C:/stxxl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e53db.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23/12/2018 17:19:14.
+Project "C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_e53db.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e53db.dir\Debug\".
+  Creating directory "C:\stxxl\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e53db.dir\Debug\cmTC_e53db.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_e53db.dir\Debug\cmTC_e53db.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e53db.dir\Debug\\" /Fd"cmTC_e53db.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\stxxl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26730 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e53db.dir\Debug\\" /Fd"cmTC_e53db.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\stxxl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+  
+C:\stxxl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'mallinfo': undeclared identifier [C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_e53db.vcxproj]
+Done Building Project "C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_e53db.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_e53db.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\stxxl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'mallinfo': undeclared identifier [C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_e53db.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.37
+
+File C:/stxxl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mlock exist failed with the following output:
+Change Dir: C:/stxxl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a7bf6.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.8.169+g1ccb72aefa for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 23/12/2018 17:19:15.
+Project "C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_a7bf6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a7bf6.dir\Debug\".
+  Creating directory "C:\stxxl\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a7bf6.dir\Debug\cmTC_a7bf6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a7bf6.dir\Debug\cmTC_a7bf6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7bf6.dir\Debug\\" /Fd"cmTC_a7bf6.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\stxxl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26730 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7bf6.dir\Debug\\" /Fd"cmTC_a7bf6.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\stxxl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+  
+C:\stxxl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'sys/mman.h': No such file or directory [C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_a7bf6.vcxproj]
+Done Building Project "C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_a7bf6.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_a7bf6.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\stxxl\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'sys/mman.h': No such file or directory [C:\stxxl\build\CMakeFiles\CMakeTmp\cmTC_a7bf6.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.38
+
+File C:/stxxl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mlock
+  return ((int*)(&mlock))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
