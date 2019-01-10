@@ -2,12 +2,9 @@
   Game.cpp
   main.cpp
   Simulation.cpp
-  Parallel.cu
-c:\users\alex\desktop\puissance 4\parallel.cu(32): error C2059: syntax error: '<'
-c:\users\alex\desktop\puissance 4\parallel.cu(38): error C2668: 'abs': ambiguous call to overloaded function
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(364): note: could be '__int64 abs(const __int64) noexcept'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(359): note: or       'long abs(const long) noexcept'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(289): note: or       'int abs(int)'
-  c:\users\alex\desktop\puissance 4\parallel.cu(38): note: while trying to match the argument list '(float)'
-c:\users\alex\desktop\puissance 4\parallel.cu(38): error C3861: 'max': identifier not found
   Generating Code...
+  p4.vcxproj -> C:\Users\Alex\Desktop\p4\cpp\x64\Debug\p4.exe
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
