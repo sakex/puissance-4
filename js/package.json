@@ -8,6 +8,7 @@
     "build": "next build && node-gyp rebuild",
     "dev": "node server/index.js",
     "start": "next start",
+    "serv": "export NODE_ENV=production && forever start server/index.js",
     "rebuild": "node-gyp rebuild"
   },
   "repository": {

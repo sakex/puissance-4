@@ -43,7 +43,6 @@ void play(const FunctionCallbackInfo<Value> &args)
 
 void print(const FunctionCallbackInfo<Value> &args)
 {
-  v8::Isolate *isolate = v8::Isolate::GetCurrent();
   Local<Object> self = args.Holder();
   Local<External> wrapper = Local<External>::Cast(self->GetInternalField(0));
   Game *game = static_cast<Game *>(wrapper->Value());
@@ -62,7 +61,6 @@ void minimax(const FunctionCallbackInfo<Value> &args)
 
 void deleteGame(const FunctionCallbackInfo<Value> &args)
 {
-  v8::Isolate *isolate = v8::Isolate::GetCurrent();
   Local<Object> self = args.Holder();
   Local<External> wrapper = Local<External>::Cast(self->GetInternalField(0));
   Game *game = static_cast<Game *>(wrapper->Value());
@@ -72,7 +70,6 @@ void deleteGame(const FunctionCallbackInfo<Value> &args)
 void newGame(const FunctionCallbackInfo<Value> &args)
 {
   v8::Isolate *isolate = v8::Isolate::GetCurrent();
-  Local<v8::Context> context = isolate->GetCurrentContext();
   Game *game_ptr = new Game();
   game_ptr->nextPlayer();
 
