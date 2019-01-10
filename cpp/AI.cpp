@@ -20,7 +20,7 @@ long long deep_search(Game *state, short depth)
     {
       if (winner == 1)
         score = 7 * depth;
-      else
+      else if (winner == 2)
         score = -7 * depth;
       return score;
     }
