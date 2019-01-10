@@ -2,11 +2,13 @@
   "name": "puissance-4",
   "version": "1.0.0",
   "description": "Puissance 4 AI",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build && node-gyp rebuild",
+    "dev": "node server/index.js",
+    "start": "next start",
+    "rebuild": "node-gyp rebuild"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,8 @@
     "express": "^4.16.4",
     "next": "^7.0.2",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "socket.io": "^2.2.0",
+    "styled-components": "^4.1.3"
   }
 }
