@@ -1,5 +1,6 @@
 #include "Game.h"
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -14,7 +15,7 @@ void Game::printState()
   {
     for (short j = 0; j < WIDTH; ++j)
     {
-      char *endStr;
+      string endStr;
       if (j == HEIGHT)
         endStr = "\n";
       else
